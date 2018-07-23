@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/putih">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/imgSearch"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgSearch"
+            android:text="Judul"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tvJudulSearch"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="deskripsi"
+            android:layout_below="@+id/tvJudulSearch"
+            android:layout_toRightOf="@+id/imgSearch"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvDesSearch"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tgl"
+            android:layout_below="@+id/tvDesSearch"
+            android:layout_toRightOf="@+id/imgSearch"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvTglSearch"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/imgSearch"
+            android:layout_below="@+id/tvTglSearch"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/detail"
+            android:background="@color/colorAccent"
+            android:textColor="@color/putih"
+            android:id="@+id/btndetailSearch"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tvTglSearch"
+            android:layout_toRightOf="@+id/btndetailSearch"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share"
+            android:background="@color/colorAccent"
+            android:textColor="@color/putih"
+            android:id="@+id/btnShare"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="0dp"
+            android:id="@+id/txtRatingSearch"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="0dp"
+            android:id="@+id/txtDescFULLSearch"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="0dp"
+            android:id="@+id/linkgambarSearch"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

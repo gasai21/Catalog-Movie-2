@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CatalogMovie</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cari_film_nih">Judul Film</string>
+    <string name="nyari">Cari</string>
+    <string name="title_gan">Judul</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="tanggal">Tanggal Rilis</string>
+    <string name="rating">Rating</string>
+    <string name="detail">DETAIL</string>
+    <string name="share">BERBAGI</string>
+    <string name="play_now">MAIN SEKARANG</string>
+    <string name="upcoming">MENDATANG</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+</resources>
